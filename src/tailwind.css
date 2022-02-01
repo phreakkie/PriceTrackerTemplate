@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 .button-yellow {
+  @apply border border-gray-500 py-2 button-yellow-color rounded-md button-yellow-hover button-yellow-active;
+}
+
+.button-yellow-color {
   background: -webkit-gradient(linear, left bottom, left top, from(#efc25c), to(#f6da9f));
   background: linear-gradient(to top, #efc25c 0%, #f6da9f 100%);
 }
@@ -14,5 +18,10 @@
 .button-yellow-active:active {
   background: -webkit-gradient(linear, left bottom, left top, from(#eab12e), to(#f2c870));
   background: linear-gradient(to top, #eab12e 0%, #f2c870 100%);
+}
+
+.form-shadow {
+  -webkit-box-shadow: 0 3px 5px 0 rgba(146, 146, 146, 0.16);
+          box-shadow: 0 3px 5px 0 rgba(146, 146, 146, 0.16);
 }
 /*# sourceMappingURL=tailwind.css.map */

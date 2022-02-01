@@ -3,6 +3,9 @@
 @tailwind utilities;
 
 .button-yellow {
+  @apply border border-gray-500 py-2 button-yellow-color rounded-md button-yellow-hover button-yellow-active;
+}
+.button-yellow-color {
   background: linear-gradient(to top, #efc25c 0%, #f6da9f 100%);
 }
 .button-yellow-hover:hover {
@@ -18,4 +21,8 @@
     darken(#efc25c, 10%) 0%,
     darken(#f6da9f, 10%) 100%
   );
+}
+
+.form-shadow {
+  box-shadow: 0 3px 5px 0 rgba(146, 146, 146, 0.16);
 }
