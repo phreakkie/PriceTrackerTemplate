@@ -492,19 +492,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-width: 1px;
 }
 
-.border-gray-500 {
-  --tw-border-opacity: 1;
-  border-color: rgb(107 114 128 / var(--tw-border-opacity));
-}
-
-.border-gray-300 {
-  --tw-border-opacity: 1;
-  border-color: rgb(209 213 219 / var(--tw-border-opacity));
-}
-
 .border-gray-400 {
   --tw-border-opacity: 1;
   border-color: rgb(156 163 175 / var(--tw-border-opacity));
+}
+
+.border-gray-500 {
+  --tw-border-opacity: 1;
+  border-color: rgb(107 114 128 / var(--tw-border-opacity));
 }
 
 .py-4 {
@@ -512,14 +507,19 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 1rem;
 }
 
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
 .px-2 {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
-}
-
-.py-2\.5 {
-  padding-top: 0.625rem;
-  padding-bottom: 0.625rem;
 }
 
 .py-2 {
@@ -532,27 +532,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-right: 1.25rem;
 }
 
-.py-3 {
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-}
-
-.px-3 {
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
-}
-
 .pl-20 {
   padding-left: 5rem;
 }
 
 .pr-20 {
   padding-right: 5rem;
-}
-
-.text-sm {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
 }
 
 .text-xs {
@@ -564,10 +549,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   background: linear-gradient(to top, #efc25c 0%, #f6da9f 100%);
 }
 
-.button-hover:hover {
-  filter: brightness(110%);
+.button-yellow-hover:hover {
+  background: linear-gradient(to top, #f4d38a 0%, #faecce 100%);
 }
 
-.button-active:active {
-  filter: brightness(90%);
+.button-yellow-active:active {
+  background: linear-gradient(to top, #eab12e 0%, #f2c870 100%);
 }
+/*# sourceMappingURL=styles.css.map */

@@ -1,13 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 .button-yellow {
+  background: -webkit-gradient(linear, left bottom, left top, from(#efc25c), to(#f6da9f));
   background: linear-gradient(to top, #efc25c 0%, #f6da9f 100%);
 }
-.button-hover:hover {
-  filter: brightness(110%);
+
+.button-yellow-hover:hover {
+  background: -webkit-gradient(linear, left bottom, left top, from(#f4d38a), to(#faecce));
+  background: linear-gradient(to top, #f4d38a 0%, #faecce 100%);
 }
-.button-active:active {
-  filter: brightness(90%);
+
+.button-yellow-active:active {
+  background: -webkit-gradient(linear, left bottom, left top, from(#eab12e), to(#f2c870));
+  background: linear-gradient(to top, #eab12e 0%, #f2c870 100%);
 }
+/*# sourceMappingURL=tailwind.css.map */
