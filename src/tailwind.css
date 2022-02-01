@@ -24,4 +24,9 @@
   -webkit-box-shadow: 0 3px 5px 0 rgba(146, 146, 146, 0.16);
           box-shadow: 0 3px 5px 0 rgba(146, 146, 146, 0.16);
 }
+
+.header-shadow {
+  -webkit-box-shadow: 0 3px 12px 0 rgba(180, 180, 180, 0.16);
+          box-shadow: 0 3px 12px 0 rgba(180, 180, 180, 0.16);
+}
 /*# sourceMappingURL=tailwind.css.map */
